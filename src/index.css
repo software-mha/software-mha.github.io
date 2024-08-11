@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,#root,html,body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    touch-action: none;
+    font-family: "Montserrat","Inter","Fira Sans", sans-serif;
+    color: white;
+}
+
+#root,html,body{
+    background-color: black;
+}
