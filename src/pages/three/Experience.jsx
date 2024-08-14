@@ -28,7 +28,7 @@ const Experience = () => {
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none -z-10">
             <Canvas>
             <color attach="background" args={["black"]} />
-                <Perf position={'top-left'}></Perf>
+                {/* <Perf position={'top-left'}></Perf> */}
                 <Suspense>
                 <group ref={groupRef}>
                     <group position={[0,0,0]}>
