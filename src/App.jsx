@@ -43,7 +43,7 @@ function ProjectButtons({setProject}) {
             </button>
             
             <button onClick={()=>{setProject(projectObj.sofa)}} className="w-max text-lg underline underline-offset-8 decoration-slate-50">
-                Sofa Configurator
+                Sofa Configurator (Personal)
             </button>
             {/* <button onClick={()=>{setProject(projectObj.virtualDays)}} className="w-max text-lg underline underline-offset-8 decoration-slate-50">
                 123
