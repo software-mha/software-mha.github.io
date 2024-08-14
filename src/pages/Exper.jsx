@@ -18,7 +18,7 @@ const Exper = ({ children }) => {
                         GenITeam Solutions- Full-time (On-Site)
                     </div>
                     <div className="font-normal">
-                        May 2021 - Oct 2022 · 1 yr 6 mos
+                        May 2020 - Oct 2021 · 1 yr 6 mos
                     </div>
                 </div>
                 <div className="flex flex-col gap-y-1 font-extrabold text-md md:text-xl lg:text-xl mt-2 bg-ThemeBg bg-opacity-50 lg:max-w-[40rem] p-2 rounded-xl -ml-2 w-max">
