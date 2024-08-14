@@ -47,7 +47,7 @@ const Experience = () => {
                             bevelSegments={4}
                             creaseAngle={0.4}
                         >
-                            <meshBasicMaterial color="#805300" wireframe/>
+                            <meshBasicMaterial color="#0e6b0e" wireframe/>
                         </RoundedBox>
                     </Float>
                     <Float
@@ -58,7 +58,7 @@ const Experience = () => {
                     >
                         <Octahedron args={[1, 1, 1]} position={[0, 1, 0]}>
                             <meshBasicMaterial
-                                color="#805300"
+                                color="#0e6b0e"
                                 wireframe
                             />
                         </Octahedron>
@@ -76,7 +76,7 @@ const Experience = () => {
                             scale={0.075}
                         >
                             <meshBasicMaterial
-                                color="#805300"
+                                color="#0e6b0e"
                                 wireframe
                             />
                         </Torus>
