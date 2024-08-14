@@ -55,7 +55,7 @@ function ProjectButtons({setProject}) {
 function App() {
     const [ project, setProject ] = useState(projectObj.none);
     return (
-        <div className="h-screen w-full flex justify-center items-center ">
+        <div className="h-screen w-full flex justify-center items-center absolute">
             <div className="h-full lg:h-3/4 w-full lg:w-4/5 lg:max-w-5xl lg:px-8 lg:rounded-[2rem] flex flex-col  lg:border-white lg:border-2">
                 <Header projectObj={projectObj} setProject={setProject}/>
                 {project == projectObj.none && (

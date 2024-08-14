@@ -6,7 +6,7 @@ import Experience from './pages/three/Experience.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Experience/>
     <App />
+    <Experience/>
   </StrictMode>,
 )
