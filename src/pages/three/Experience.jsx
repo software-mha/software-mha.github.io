@@ -40,43 +40,41 @@ const Experience = () => {
                     >
                         <RoundedBox
                             args={[1, 1, 1]}
-                            position={[-2, 0, 0]}
+                            position={[-2, -1.5, 0]}
                             rotation={[0, Math.PI * 0.15, 0]}
-                            radius={0.2}
-                            smoothness={4}
-                            bevelSegments={4}
-                            creaseAngle={0.4}
+                            smoothness={1}
+                            bevelSegments={1}
                         >
-                            <meshBasicMaterial color="#0e6b0e" wireframe/>
+                            <meshBasicMaterial color="#FAB972" wireframe/>
                         </RoundedBox>
                     </Float>
                     <Float
                         speed={1}
-                        rotationIntensity={6}
-                        floatIntensity={5}
+                        rotationIntensity={5}
+                        floatIntensity={0}
                         floatingRange={[-0.5, 0.5]}
                     >
-                        <Octahedron args={[1, 1, 1]} position={[0, 1, 0]}>
+                        <Octahedron args={[1, 1, 1]} position={[0, 3, 0]} scale={0.5}>
                             <meshBasicMaterial
-                                color="#0e6b0e"
+                                color="#FAB972"
                                 wireframe
                             />
                         </Octahedron>
                     </Float>
                     <Float
                         speed={1}
-                        rotationIntensity={3}
-                        floatIntensity={2}
+                        rotationIntensity={2}
+                        floatIntensity={1}
                         floatingRange={[-0.05, 0.5]}
                     >
                         <Torus
                             args={[10, 3, 16, 30]}
-                            position={[2, -1, 0]}
+                            position={[2, -1.5, 0]}
                             rotation={[0, -Math.PI * 0.1, 0]}
-                            scale={0.075}
+                            scale={0.05}
                         >
                             <meshBasicMaterial
-                                color="#0e6b0e"
+                                color="#FAB972"
                                 wireframe
                             />
                         </Torus>
