@@ -22,7 +22,7 @@ const projectObj = {
   },
   sofa: {
     name: "Sofa Configurator",
-    desc:"As a fun project, I developed a React Three Fiber-based sofa configurator that lets users customize the sofa’s material and color, as well as the wooden stand, in real-time. It’s an interactive 3D experience that makes designing furniture both easy and enjoyable.",
+    desc:"As a fun project, I developed a React Three Fiber-based sofa configurator that lets users customize the sofa’s material and color, as well as the wooden stand, in real-time. It’s an interactive 3D experience that makes designing furniture both easy and enjoyable. Wrote for the struture for these kind of projects.",
     linkName: ["Netlify"],
     link:["https://software-mha-sofa-configurator.netlify.app/"]
   },
