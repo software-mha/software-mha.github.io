@@ -22,9 +22,21 @@ const projectObj = {
   },
   sofa: {
     name: "Sofa Configurator",
-    desc:"I developed a React Three Fiber based sofa configurator allowing users to customize the sofa's material and color in real-time. Additionally, users can modify the material of the wooden stand, providing a fully interactive 3D experience for personalizing the furniture.",
+    desc:"As a fun project, I developed a React Three Fiber-based sofa configurator that lets users customize the sofa’s material and color, as well as the wooden stand, in real-time. It’s an interactive 3D experience that makes designing furniture both easy and enjoyable.",
     linkName: ["Netlify"],
     link:["https://software-mha-sofa-configurator.netlify.app/"]
+  },
+  slot: {
+    name: "Slot Machine",
+    desc:"As the developer of our virtual slot machine game, my goal was to capture the thrill of classic slots in a fun, risk-free environment. Spin the reels, unlock bonus rounds, and chase big wins.",
+    linkName: ["Netlify"],
+    link:["https://game-slot-machine.netlify.app/"]
+  },
+  jump: {
+    name: "Brabarian Jump",
+    desc:"As the developer of Barbarian Jump, I crafted a thrilling, fast-paced adventure where you guide a fearless barbarian as he leaps from platform to platform. The challenge lies in keeping him from falling as you push forward. It’s easy to pick up, but mastering the timing is key—how far can you keep our hero jumping?",
+    linkName: ["Netlify"],
+    link:["https://brabarianjump.netlify.app/"]
   }
 };
 
@@ -41,7 +53,15 @@ function ProjectButtons({setProject}) {
             <button onClick={()=>{setProject(projectObj.empire)}} className="w-max text-lg underline underline-offset-8 decoration-slate-50">
                 Empire
             </button>
-            
+
+            <button onClick={()=>{setProject(projectObj.slot)}} className="w-max text-lg underline underline-offset-8 decoration-slate-50">
+                Slot Machine
+            </button>
+
+            <button onClick={()=>{setProject(projectObj.jump)}} className="w-max text-lg underline underline-offset-8 decoration-slate-50">
+                Brabarian Jump (Personal)
+            </button>
+
             <button onClick={()=>{setProject(projectObj.sofa)}} className="w-max text-lg underline underline-offset-8 decoration-slate-50">
                 Sofa Configurator (Personal)
             </button>
