@@ -73,12 +73,7 @@ const Experience = () => {
                                 floatIntensity={1}
                                 floatingRange={[-0.4, 0.4]}
                             >
-                                <Lathe position={[2, -1, 0]} scale={0.5}>
-                                    <meshBasicMaterial
-                                        color="#FAB972"
-                                        wireframe
-                                    />
-                                </Lathe>
+                                
                                 <Octahedron
                                     args={[1, 1, 1]}
                                     position={[2, -1, 0]}
